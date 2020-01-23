@@ -44,11 +44,11 @@ p {
   line-height: 2.0rem;
 }
 
-/*img {
+.img {
   width: 300px;
 }
 
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
   img {
     width: 600px;
   }
