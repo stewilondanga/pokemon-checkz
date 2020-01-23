@@ -133,7 +133,7 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   position: static;
 }
 
-/*.about {
+.about {
   text-align: left;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #051937, #001f56, #002374, #002491, #291dac);
@@ -146,7 +146,8 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   z-index: 99;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
-.about .close {
+
+/*.about .close {
   float: right;
   text-shadow: 1px 1px 1px black;
 }
