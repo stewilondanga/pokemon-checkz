@@ -168,7 +168,7 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   margin: 0 auto;
 }
 
-/*.cal {
+.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
@@ -178,7 +178,7 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   transition: all 0.2s linear;
 }
 
-.cal:hover {
+/*.cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
