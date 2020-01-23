@@ -54,7 +54,7 @@ p {
   }
 }
 
-/*footer {
+footer {
   position: fixed;
   bottom: 0;
   border-top: 1px solid grey;
@@ -67,7 +67,7 @@ p {
   z-index-display: inline-block;
 }
 
-input[type=checkbox] {
+/*input[type=checkbox] {
   display: none;
 }
 
