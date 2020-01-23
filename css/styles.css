@@ -189,12 +189,12 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   font-size: 15px;
 }
 
-/*.cal th {
+.cal th {
   color: #aaa;
   line-height: 200%;
 }
 
-.cal th:first-child {
+/*.cal th:first-child {
   color: #f00;
 }
 
