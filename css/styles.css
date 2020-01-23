@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,143 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+@import "https://fonts.googleapis.com/css?family=Roboto:400,400i,700";
+h1 {
+  text-shadow: 2px 2px 2px #969696;
+  font-size: 32px;
+}
+
+p {
+  line-height: 2.0rem;
+}
+
+img {
+  width: 300px;
+}
+
+@media screen and (min-width: 992px) {
+  img {
+    width: 600px;
+  }
+}
+body {
+  margin: 0;
+  padding-top: 45px;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/anime-panorama-priroda-5d1a803.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid grey;
+  background-image: linear-gradient(to top, #093373, #003496, #0033b7, #002cd7, #0015f4);
+  width: 100%;
+  padding: 15px;
+  z-index: 2 div;
+  z-index-width: 55px;
+  z-index-height: 80px;
+  z-index-display: inline-block;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+[class*='poke-'] {
+  padding-left: 20px;
+  display: flex;
+  width: 55px;
+  height: 80px;
+  background-size: auto 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+}
+
+[class*='one'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/1.png);
+}
+
+[class*='two'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/2.png);
+}
+
+[class*='three'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/3.png);
+}
+
+[class*='four'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/4.png);
+}
+
+[class*='five'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/5.png);
+}
+
+[class*='six'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/6.png);
+}
+
+[class*='seven'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/7.png);
+}
+
+[class*='eight'] {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/8.png);
+}
+
+input[type=checkbox]:checked + label.poke-one, input[type=checkbox]:checked + label.poke-two,
+input[type=checkbox]:checked + label.poke-three, input[type=checkbox]:checked + label.poke-four,
+input[type=checkbox]:checked + label.poke-five, input[type=checkbox]:checked + label.poke-six,
+input[type=checkbox]:checked + label.poke-seven, input[type=checkbox]:checked + label.poke-eight {
+  background-position: right center;
+}
+
+[class*='pokemon'] {
+  width: 50px;
+  display: inline-block;
+  padding: 15px;
+  position: fixed;
+}
+
+.caught {
+  position: static;
+}
+
+.about {
+  text-align: left;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #051937, #001f56, #002374, #002491, #291dac);
+  border: 1px solid grey;
+  padding: 25px;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 50px;
+  left: 15px;
+  z-index: 99;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.about .close {
+  float: right;
+  text-shadow: 1px 1px 1px black;
+}
+
 
 .containers {
   width: 520px;
