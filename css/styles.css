@@ -99,11 +99,11 @@ input[type=checkbox] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/4.png);
 }
 
-/*[class*='five'] {
+[class*='five'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/5.png);
 }
 
-[class*='six'] {
+/*[class*='six'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/6.png);
 }
 
