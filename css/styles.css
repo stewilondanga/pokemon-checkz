@@ -1,4 +1,25 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:400,400i,700";
+
+body {
+  margin: 0;
+  padding-top: 45px;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/anime-panorama-priroda-5d1a803.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -39,25 +60,6 @@ img {
   img {
     width: 600px;
   }
-}
-body {
-  margin: 0;
-  padding-top: 45px;
-  height: 100%;
-  color: #fff;
-  text-align: center;
-  overflow: hidden;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/anime-panorama-priroda-5d1a803.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 footer {
