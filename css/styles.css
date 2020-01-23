@@ -115,14 +115,14 @@ input[type=checkbox] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/8.png);
 }
 
-/*input[type=checkbox]:checked + label.poke-one, input[type=checkbox]:checked + label.poke-two,
-input[type=checkbox]:checked + label.poke-three, input[type=checkbox]:checked + label.poke-four,
-input[type=checkbox]:checked + label.poke-five, input[type=checkbox]:checked + label.poke-six,
-input[type=checkbox]:checked + label.poke-seven, input[type=checkbox]:checked + label.poke-eight {
+input[type=checkbox]:checked+label.poke-one, input[type=checkbox]:checked+label.poke-two,
+input[type=checkbox]:checked+label.poke-three, input[type=checkbox]:checked+label.poke-four,
+input[type=checkbox]:checked+label.poke-five, input[type=checkbox]:checked+label.poke-six,
+input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+label.poke-eight {
   background-position: right center;
 }
 
-[class*='pokemon'] {
+/*[class*='pokemon'] {
   width: 50px;
   display: inline-block;
   padding: 15px;
