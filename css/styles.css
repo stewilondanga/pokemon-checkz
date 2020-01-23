@@ -67,11 +67,11 @@ footer {
   z-index-display: inline-block;
 }
 
-/*input[type=checkbox] {
+input[type=checkbox] {
   display: none;
 }
 
-[class*='poke-'] {
+/*[class*='poke-'] {
   padding-left: 20px;
   display: flex;
   width: 55px;
