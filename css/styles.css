@@ -152,12 +152,12 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   text-shadow: 1px 1px 1px black;
 }
 
-/*.containers {
+.containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
