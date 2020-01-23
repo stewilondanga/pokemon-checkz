@@ -129,11 +129,11 @@ input[type=checkbox]:checked+label.poke-seven, input[type=checkbox]:checked+labe
   position: fixed;
 }
 
-/*.caught {
+.caught {
   position: static;
 }
 
-.about {
+/*.about {
   text-align: left;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, #051937, #001f56, #002374, #002491, #291dac);
