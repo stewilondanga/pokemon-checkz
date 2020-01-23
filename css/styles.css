@@ -107,11 +107,11 @@ input[type=checkbox] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/6.png);
 }
 
-/*[class*='seven'] {
+[class*='seven'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/7.png);
 }
 
-[class*='eight'] {
+/*[class*='eight'] {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/905237/8.png);
 }
 
